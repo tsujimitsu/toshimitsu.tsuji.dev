@@ -1,0 +1,16 @@
+{
+  "name": "toshimitsu.tsuji.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "gatsby new app",
+    "build": "cd app && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gatsby-cli": "2.6.5"
+  }
+}
