@@ -15,3 +15,10 @@ $ hugo server -D
 ```shell
 $ hugo -D
 ```
+
+## create new article
+
+```shell
+$ hugo new posts/hello.md
+$ hugo new posts/hello.md --editor="code"
+```
