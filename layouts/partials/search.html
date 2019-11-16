@@ -1,12 +1,5 @@
 <div class="entry-content">
-  <p><h1 id="ブログ インクリメンタルサーチ">ブログ インクリメンタルサーチ</h1>
-    <div class="ulist">
-      <ul>
-        <li>複数キーワードで検索したい場合は、右のGoogle検索をお使い下さい。</li>
-        <li>キーワードにメタ文字を含む場合、エスケープが必要です。</li>
-      </ul>
-    </div>
-
+  <p>
     <script src="/index.js"></script>
 
     <style>
@@ -43,7 +36,7 @@
     </style>
 
     <div id="searchbox">
-      <input onkeyup="search(this.value)" size="15" autocomplete="off" autofocus placeholder="検索ワードを入力" />
+      <input onkeyup="search(this.value)" size="15" autocomplete="off" autofocus placeholder="Search" />
       <span id="inputWord"></span> <span id="resultCount"></span>
       <div id="result"></div>
     </div>
@@ -109,10 +102,8 @@
 
       function showResultCount(count, total) {
         var el = document.getElementById('resultCount');
-        el.innerHTML = '<b>' + count + '</b> 件見つかりました（' + total + '件中）';
+        el.innerHTML = '<b>' + count + '</b> results in ' + total;
       }
       </script>
-
-    <noscript><p class="notice">注意: この検索機能は JavaScript を使用しています。</p></noscript>
   </p>
 </div>
