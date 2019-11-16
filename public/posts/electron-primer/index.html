@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.59.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="tsujimitsu.tsuji.dev">
+<title>Electron Primer - tsujimitsu.tsuji.dev</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><img src="" width="60" height="60" alt="tsujimitsu.tsuji.dev"></a>
+		</div>
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">Electron Primer</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2015-08-25">August 25, 2015</time></span>
+			<section itemprop="entry-text">
+				
+
+<h1 id="node-のインストール">node のインストール</h1>
+
+<ul>
+<li><p><a href="https://nodejs.org/download/">windows installer(.msi)</a> をインストール。</p>
+
+<pre><code>node -v
+&gt; v0.12.7
+</code></pre></li>
+</ul>
+
+<h1 id="electron-のインストール">Electron のインストール</h1>
+
+<pre><code>    npm -g install electron-prebuilt
+    &gt;electron-prebuilt@0.31.0 C:\Users\XXXX\AppData\Roaming\npm\node_modules\electron-prebuilt
+     ├── extract-zip@1.0.3 (debug@0.7.4, minimist@0.1.0, async@0.9.0, yauzl@2.3.1,
+     mkdirp@0.5.0, through2@0.6.3, concat-stream@1.5.0)
+     └── electron-download@1.0.8 (path-exists@1.0.0, home-path@0.1.2, debug@2.2.0,
+     mkdirp@0.5.1, mv@2.1.1, nugget@1.5.4)
+
+    npm ls -g electron-prebuilt
+    &gt;└── electron-prebuilt@0.31.0
+</code></pre>
+
+<h1 id="application-作成">Application 作成</h1>
+
+<pre><code>    pwd .../node/electron-sample
+    npm init
+    &gt; 全てEnter（デフォルト）で作成
+    
+    dir
+    &gt; package.json
+    &gt;&gt; package.json の main を index.jsからmain.jsへ変更している。
+
+    vim main.js
+    vim index.html
+
+    dir
+    &gt; package.json
+      main.js
+      index.html
+
+    electron ./
+</code></pre>
+
+<h1 id="archive-する">Archive する</h1>
+
+<pre><code>    npm -g install asar
+    cd ..
+    pwd
+    &gt; .../node
+
+    asar pack ./electron-sample ./electron-sample.asar
+    electron ./electron-sample.asar
+</code></pre>
+
+<h1 id="配布用ファイルを作成する">配布用ファイルを作成する</h1>
+
+<pre><code>    npm -g install electron-packager
+    electron-packager ./electron-sample electron-sample --platform=darwin,win32 --arch=x64 --version=0.31.0
+    dir
+    &gt; electron-sample-win32-x64
+    &gt; darwin も指定していたがWindows上で作成するとdarwinはできないのか？
+</code></pre>
+
+<h1 id="reference">Reference</h1>
+
+<ul>
+<li><a href="http://qiita.com/nyanchu/items/15d514d9b9f87e5c0a29">30分で出来る、JavaScript (Electron) でデスクトップアプリを作って配布するまで</a></li>
+<li><a href="http://qiita.com/hikaruna/items/abdadca27f12c0e4eb78">node.js のrequire先pathにnpm -gでグローバルインストールしたのものを登録する</a></li>
+</ul>
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/tsujimitsu" target="_blank">Twitter</a>
+			<a href="https://www.facebook.com/tsujimitsu" target="_blank">Facebook</a>
+			<a href="https://github.com/tsujimitsu/" target="_blank">GitHub</a>
+			
+		</div>
+		<div class="copyright">Copyright &copy; </div>
+	</footer>
+
+</div>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-152694591-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

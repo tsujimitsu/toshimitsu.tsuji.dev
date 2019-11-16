@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iot on tsujimitsu.tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/categories/iot/</link>
+    <description>Recent content in iot on tsujimitsu.tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 29 Aug 2017 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/categories/iot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AWS IoT</title>
+      <link>https://toshimitsu.tsuji.dev/posts/aws-iot/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/aws-iot/</guid>
+      <description> 使い方  AWS IoT 今すぐ始める 接続 -&amp;gt; デバイスの設定 今すぐ始める Linux/OSX, Node.js 接続キットのダウンロード 以下をデバイスで実行
+unzip connect_device_package.zip chmod +x start.sh ./start.sh  登録 -&amp;gt; モノ
+ モノの登録
+ モノの作成
+ セキュリティ -&amp;gt; 証明書の作成
+ 以下のダウンロード
+ このモノの証明書 パブリックキー プライベートキー  有効化
+ 完了
+  </description>
+    </item>
+    
+  </channel>
+</rss>

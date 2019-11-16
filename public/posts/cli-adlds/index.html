@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.59.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="tsujimitsu.tsuji.dev">
+<title>CLI ADLDS - tsujimitsu.tsuji.dev</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><img src="" width="60" height="60" alt="tsujimitsu.tsuji.dev"></a>
+		</div>
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">CLI ADLDS</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2013-05-26">May 26, 2013</time></span>
+			<section itemprop="entry-text">
+				<p>ユーザグループ追加などの作業で必要となる。</p>
+
+<ul>
+<li><a href="https://blogs.technet.microsoft.com/askds/2009/09/14/windows-2008-r2-managing-ad-lds-using-the-ad-powershell-module/">Windows 2008 R2: Managing AD LDS using the AD PowerShell Module</a></li>
+</ul>
+
+<p>以下はコマンド例。</p>
+
+<pre><code>New-ADUser -name “test01” -Displayname “test01” -server lds01:389 -Path “OU=Users,DC=codelogue,DC=com”
+
+Add-ADGroupMember -identity “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -member “CN=test01,OU=Users,DC=codelogue,DC=com” -partition “DC=codelogue,DC=com” -server lds01
+</code></pre>
+
+<p>powershellをコマンドプロンプトから呼び出してバッチ処理する</p>
+
+<ul>
+<li><a href="http://news.mynavi.jp/column/powershell/013/index.html">http://news.mynavi.jp/column/powershell/013/index.html</a></li>
+<li><a href="http://technet.microsoft.com/ja-jp/scriptcenter/powershell_owner05.aspx">http://technet.microsoft.com/ja-jp/scriptcenter/powershell_owner05.aspx</a></li>
+<li><a href="http://d.hatena.ne.jp/mokkyu/20080421/1208728868">http://d.hatena.ne.jp/mokkyu/20080421/1208728868</a></li>
+</ul>
+
+<ol>
+<li><p>ファイルを準備する</p>
+
+<pre><code>C:¥Users¥Administrator¥Desktop¥Test.ps1
+
+Import-Module ActiveDirectory
+
+New-ADUser -name “test01” -Displayname “test01” -server lds01:389 -Path “OU=Users,DC=codelogue,DC=com”
+
+Add-ADGroupMember -identity “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -member “CN=test01,OU=Users,DC=codelogue,DC=com” -partition “DC=codelogue,DC=com” -server lds01
+</code></pre></li>
+
+<li><p>コマンドプロンプトを開く</p>
+
+<pre><code>C:¥Users¥Administrator¥Desktop&gt;
+
+# powershell Set-ExecutionPolicy RemoteSigned
+
+# powershell ./Test.ps1
+</code></pre></li>
+</ol>
+
+<ul>
+<li><p>コマンドで検索とかする</p>
+
+<ul>
+<li><a href="http://www.upken.jp/kb/bEIQypTouWhBnzwQQlhXilmkYtAOyb.html">http://www.upken.jp/kb/bEIQypTouWhBnzwQQlhXilmkYtAOyb.html</a></li>
+</ul></li>
+
+<li><p>コマンドラインからユーザ追加（ldfideコマンド）</p>
+
+<ul>
+<li><a href="http://technet.microsoft.com/ja-jp/library/cc725619(v=ws.10).aspx">http://technet.microsoft.com/ja-jp/library/cc725619(v=ws.10).aspx</a></li>
+</ul></li>
+</ul>
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/tsujimitsu" target="_blank">Twitter</a>
+			<a href="https://www.facebook.com/tsujimitsu" target="_blank">Facebook</a>
+			<a href="https://github.com/tsujimitsu/" target="_blank">GitHub</a>
+			
+		</div>
+		<div class="copyright">Copyright &copy; </div>
+	</footer>
+
+</div>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-152694591-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

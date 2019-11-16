@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>agile on tsujimitsu.tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/tags/agile/</link>
+    <description>Recent content in agile on tsujimitsu.tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 12 Dec 2016 00:27:44 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agile</title>
+      <link>https://toshimitsu.tsuji.dev/posts/2016-12-12-agile/</link>
+      <pubDate>Mon, 12 Dec 2016 00:27:44 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/2016-12-12-agile/</guid>
+      <description> プロダクトバックログ（マスターユーザストーリー）  ユーザーストーリーの集合体 100個以内（多く入れすぎない）  ユーザーストーリー  受け入れ基準＝テスト可能  ストーリーは最低3～5個受け入れ基準を持つ  ユーザーストーリーとして記述しにくいものは、システムにおける制約・制限に対する記述の場合が多い  スプリント  1～2週間のタイムボックスで分割されている期間（分析、設計、開発、テスト、デモ、承認） スプリント完了の定義は明確にしておく（作業者と依頼者の認識は同じか？） スプリントの構成  スプリント計画ミーティング デイリースクラム スプリントレビュー 振り返り   参考にしたいアジャイル関連資料  アジャイル・スクラム導入に際して、参考にしていたサイト集 SCRUM/アジャイル開発の入門資料を全力でまとめてみた  参考書  アジャイルサムライ−達人開発者への道− SCRUM BOOT CAMP THE BOOK アジャイルな見積りと計画づくり ~価値あるソフトウェアを育てる概念と技法~ アジャイルプラクティス  Memo  冬休みの宿題かな  </description>
+    </item>
+    
+  </channel>
+</rss>

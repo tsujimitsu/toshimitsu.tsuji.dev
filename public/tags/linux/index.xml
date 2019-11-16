@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on tsujimitsu.tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/tags/linux/</link>
+    <description>Recent content in linux on tsujimitsu.tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 09 Oct 2015 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux Login Check</title>
+      <link>https://toshimitsu.tsuji.dev/posts/linux-login-check/</link>
+      <pubDate>Fri, 09 Oct 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/linux-login-check/</guid>
+      <description> # last # last | grep &amp;quot;still logged in&amp;quot; # date; last | grep &amp;quot;still logged in&amp;quot; # last | grep -E &amp;quot;119.72.198.200|119.72.195.161&amp;quot; # last | grep -Ev &amp;quot;119.72.198.200|119.72.195.161&amp;quot; # cat /var/log/secure | grep &amp;quot;Failed password&amp;quot; # lastb | awk &#39;{print $1}&#39; | sort | uniq -c | sort -nr | head -10 # cat /var/log/secure | grep sshd:session # cat /etc/logrotate.conf /var/log/wtmp { monthly create 0664 root utmp minsize 1M rotate 1 } # df -h # w # iostat # top -b # vmstat # top n 1 b # top n 1 b | grep -E &amp;quot;^top|^Tasks:|^Cpu(s):|^Mem:|^Swap:&amp;quot; Linuxのメモリ空：free（１行目） + buffers + cached   Linuxサーバーの不正アクセス監視コマンド Linuxサーバーへ不正ログインを試みたユーザー一覧を出すワンライナー Linuxサーバの負荷や使用率を調査するコマンドと手順 topコマンドの使い方 【RHEL】linuxのメモリ使用率(利用率)の計算方法 Linux のメモリー管理 freeコマンドの見方  </description>
+    </item>
+    
+    <item>
+      <title>Port-forward on Linux</title>
+      <link>https://toshimitsu.tsuji.dev/posts/port-forward-on-linux/</link>
+      <pubDate>Sun, 26 May 2013 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/port-forward-on-linux/</guid>
+      <description>Linuxをルータ化して二つのセグメントを受け渡しする方法。
+ http://okwave.jp/qa/q7892385.html  上記サイトに載っている内容プラスiptablesを無効化しないとだめ。 なお、各セグメントに接続されている端末にはGATEWAYかスタティックルートをLinuxルータに向けておく必要あり。
+ http://lists.debian.or.jp/debian-users/200709/msg00166.html  </description>
+    </item>
+    
+  </channel>
+</rss>

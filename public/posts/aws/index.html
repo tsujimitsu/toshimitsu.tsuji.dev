@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.59.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="tsujimitsu.tsuji.dev">
+<title> - tsujimitsu.tsuji.dev</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/"><img src="" width="60" height="60" alt="tsujimitsu.tsuji.dev"></a>
+		</div>
+		
+	</header>
+
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline"></h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="0001-01-01">January 01, 0001</time></span>
+			<section itemprop="entry-text">
+				
+
+<h1 id="aws">AWS</h1>
+
+<h2 id="black-belt">Black Belt</h2>
+
+<ul>
+<li><a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2017-aws-elastic-beanstalk">AWS Black Belt Online Seminar 2017 AWS Elastic Beanstalk</a></li>
+<li><a href="https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-aws-code-services-part-2">AWS Black Belt Online Seminar AWS Code Services Part 2</a></li>
+</ul>
+
+<h2 id="certificate">Certificate</h2>
+
+<ul>
+<li><a href="https://chariosan.com/2019/06/03/aws_developper_study/">業務で開発経験なしでも取れる AWS 認定デベロッパーアソシエイトの勉強法</a></li>
+</ul>
+
+<h2 id="aws-cdk">AWS CDK</h2>
+
+<ul>
+<li><a href="https://cdkworkshop.com">cdkworkshop</a></li>
+</ul>
+
+<h2 id="alb">ALB</h2>
+
+<ul>
+<li><a href="https://jyo-to.okinawa/20190330/2122/">AWS ALB でホストベースルーティング設定</a>
+
+<ul>
+<li>サブドメイン別のホスト名でルーティング先の EC2 を分ける</li>
+</ul></li>
+</ul>
+
+<h2 id="nlb">NLB</h2>
+
+<ul>
+<li>IP ターゲットのパターンであれば、IGW や NAT Gateway がなくても EC2 と通信できる
+
+<ul>
+<li><a href="https://dev.classmethod.jp/cloud/aws/load-balancing-private-ec2-rds-nlb/">https://dev.classmethod.jp/cloud/aws/load-balancing-private-ec2-rds-nlb/</a></li>
+</ul></li>
+<li>Multi-AZ で Cross-Zone 負荷分散するためには、各 AZ に１つずつの NLB 配置が必要</li>
+<li><a href="https://dev.classmethod.jp/cloud/nlb-source-ip-security-group-considerations/">AWS Network Load Balancer(NLB)のソース IP とターゲットのセキュリティグループ留意点まとめ</a></li>
+<li><a href="https://dev.classmethod.jp/cloud/aws/nlb-support-tls-termination-and-access-log/">静的な IP アドレスを持つ NLB が TLS Termination に対応してアクセスログも出力可能に！</a></li>
+<li><a href="https://tech.unifa-e.com/entry/2018/03/16/111538">NLB で複数 AZ 構成での挙動</a></li>
+<li><a href="https://dev.classmethod.jp/cloud/aws/cross-zone-load-balancing-for-nlb/">Network Load Balancer（NLB）でクロスゾーン負荷分散が可能になりました</a></li>
+<li><a href="https://qiita.com/rubytomato@github/items/e15e0a508b9fbec526e0">NLB (Network Load Balancer)の作成メモ</a></li>
+</ul>
+
+<h2 id="vpc">VPC</h2>
+
+<ul>
+<li>VPC 内で作成した EC2 であれば、Private IP は EC2 が停止しても固定されて変化しない
+
+<ul>
+<li><a href="https://qiita.com/bellks51/items/42ea1696d45a1f867721">https://qiita.com/bellks51/items/42ea1696d45a1f867721</a></li>
+</ul></li>
+</ul>
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/tsujimitsu" target="_blank">Twitter</a>
+			<a href="https://www.facebook.com/tsujimitsu" target="_blank">Facebook</a>
+			<a href="https://github.com/tsujimitsu/" target="_blank">GitHub</a>
+			
+		</div>
+		<div class="copyright">Copyright &copy; </div>
+	</footer>
+
+</div>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-152694591-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

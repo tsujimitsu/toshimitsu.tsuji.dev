@@ -1,8 +1,8 @@
 ---
-path: "/blog/vscode"
-date: "2019-07-17"
-title: "vscode"
-tags: ["vscode"]
+path: '/blog/vscode'
+date: '2019-07-17'
+title: 'vscode'
+tags: ['vscode']
 ---
 
 ## useful shortcut

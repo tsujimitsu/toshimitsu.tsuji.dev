@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graphic on tsujimitsu.tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/categories/graphic/</link>
+    <description>Recent content in graphic on tsujimitsu.tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 18 Sep 2017 01:07:49 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/categories/graphic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Motion Typo Hello</title>
+      <link>https://toshimitsu.tsuji.dev/posts/motion-typo-hello/</link>
+      <pubDate>Mon, 18 Sep 2017 01:07:49 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/motion-typo-hello/</guid>
+      <description>/** * 定数の宣言 */ // setTimeoutの秒数（言葉が変化する時間） var CHANGE_SPEED = 10; // setTimeoutの秒数（インターバルの時間） var INTERVAL_SPEED = 2000; // アスキーコードのミニマムリミット var MIN_ASCII_CODE = 48; // アスキーコードのマックスリミット var MAX_ASCII_CODE = 125; // 表示する言葉 var TARGET_WORDS = new Array( &#34;world&#34;, &#34;tsujimitsu&#34;, &#34;javascript&#34;, &#34;art&#34;, &#34;design&#34;, &#34;motion&#34;, &#34;typo&#34;, &#34;graphic&#34;, &#34;thank&#34;, &#34;you&#34;, &#34;very&#34;, &#34;much&#34; ); // 表示する先（ID） var DISPLAY_ID = &#34;hello&#34;; /** * インターバルを置く．次の文字列へセットする． * * @param 文字配列 currentWordAsciiCode(array), ナンバー targetWordNumber(int) * @return true * */ function interval(currentWordAsciiCode, targetWordNumber) { // 引数targetWordNumberがundefinedなら0を代入する if (targetWordNumber == undefined) { targetWordNumber = 0; // targetWordNumberが長さを超えた場合0に戻す } else if (targetWordNumber = TARGET_WORDS.</description>
+    </item>
+    
+    <item>
+      <title>Zero One</title>
+      <link>https://toshimitsu.tsuji.dev/posts/zero-one/</link>
+      <pubDate>Mon, 18 Sep 2017 01:07:49 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/zero-one/</guid>
+      <description>var i,y; var html,rand; function $(id){ return document.getElementById(id) } for(i=0; i&#34; for(y=0; y&#34; + rand + &#34;&#34;; } $(&#34;table&#34;).innerHTML += html + &#34;&#34; } function change() { var x,y,id; x = Math.floor( Math.random() * 19 ); y = Math.floor( Math.random() * 69 ); id = x + &#34;-&#34; + y; var target = $(id).innerHTML; if(target == 0){ $(id).innerHTML = 1; } else { $(id).innerHTML = 0; } setTimeout(&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

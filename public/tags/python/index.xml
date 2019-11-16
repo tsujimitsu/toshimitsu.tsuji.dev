@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on tsujimitsu.tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/tags/python/</link>
+    <description>Recent content in python on tsujimitsu.tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 23 Dec 2015 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Script on AWS Lambda</title>
+      <link>https://toshimitsu.tsuji.dev/posts/python-script-on-aws-lambda/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/python-script-on-aws-lambda/</guid>
+      <description> Step1 select blueprint  select &amp;ldquo;Lambda&amp;rdquo; from AWS Management Console select &amp;ldquo;lambda-canary&amp;rdquo;  Step2 configure event sources  Event source type: &amp;quot;Scheduled Event&amp;quot; Name: &amp;quot;foobar&amp;quot; Description: &amp;quot;foobar&amp;quot; Schedule: &amp;quot;rate(5 minutes)&amp;quot;  Step3 configure function  Name: &amp;quot;foobar&amp;quot; Description: &amp;quot;foobar&amp;quot; Runtime: &amp;quot;Python 2.7&amp;quot; function code: &amp;quot;python script&amp;quot; Handler: &amp;quot;lambda_function.lambda_handler&amp;quot; Role: &amp;quot;lambda_basic_execution&amp;quot; Memory(MB): &amp;quot;128&amp;quot; Timeout: &amp;quot;10sec&amp;quot;  reference  AWS Lambda��Python��Schedule���s������  </description>
+    </item>
+    
+  </channel>
+</rss>

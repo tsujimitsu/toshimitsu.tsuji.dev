@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on tsujimitsu.tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/tags/git/</link>
+    <description>Recent content in git on tsujimitsu.tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 17 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>git</title>
+      <link>https://toshimitsu.tsuji.dev/posts/git/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/git/</guid>
+      <description>git git-flow before coding
+$ git checkout develop $ git pull origin develop --rebase $ git checkout -b issue-XXX  before push(squash)
+$ git commit -m &#39;some comment #&amp;lt;issue number&amp;gt;&#39; $ git log $ git rebase -i HEAD~2  before push(rebase)
+$ git status(gs) $ git pull origin develop --rebase &amp;lt;Fix merge conflict&amp;gt; $ git add . $ git rebase --continue $ git push origin issue-XXX  after push(merged to develop)</description>
+    </item>
+    
+  </channel>
+</rss>

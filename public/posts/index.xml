@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on tsujimitsu.tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/posts/</link>
+    <description>Recent content in Posts on tsujimitsu.tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 16 Nov 2019 12:02:14 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lifehack</title>
+      <link>https://toshimitsu.tsuji.dev/posts/lifehack/</link>
+      <pubDate>Sat, 16 Nov 2019 12:02:14 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/lifehack/</guid>
+      <description> モノ作りから学べる、人生を通じて応用がききそうなこと  </description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://toshimitsu.tsuji.dev/posts/my-first-post2/</link>
+      <pubDate>Sat, 16 Nov 2019 12:02:14 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/my-first-post2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test JS</title>
+      <link>https://toshimitsu.tsuji.dev/posts/test-js/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/test-js/</guid>
+      <description> test-js jest  JavaScript テスティングフレームワーク jest でテストカバレッジを見る この頃流行りの Jest を導入して軽快に JS をテストしよう  </description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://toshimitsu.tsuji.dev/posts/development/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/development/</guid>
+      <description> npm npm がうまくインストール動かない時の対処法 proxy 環境下での npm config 設定
+$ npm config set strict-ssl false $ npm config set registry http://registry.npmjs.org/  basic $ npm i $ npm ci (not update package-lock)  shortid  URL friendly unique short id generator  lerna $ lerna publish  lerna changelog  CHANGELOG の自動生成  design system コンポーネントガイド。新規 PJ 参入者などにコンポーネントの使い方を示すために使える。
+ docz storybook  とにかくコンポーネントを表示したい、簡単に使い始めたい場合は docz   開発方法論  脅威分析  脅威の主体が引き起こす脅威とそれへの対策 STRIDE（脅威分析モデルの１つ）  spoofing（なりすまし） tampering（かいざん） repudiation（否認） information disclosure（情報漏洩） denial of service（サービス拒否） elevation of privilege（権限昇格）    </description>
+    </item>
+    
+    <item>
+      <title>devtool</title>
+      <link>https://toshimitsu.tsuji.dev/posts/devtool/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/devtool/</guid>
+      <description> Bitbucket: code repository(git), CI/CD pipeline, issue tracking, wiki Slack: chat communication GMail: mail client Google Hangout: Video telephone meeting Adobe XD: UI/UX design  </description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://toshimitsu.tsuji.dev/posts/git/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/git/</guid>
+      <description>git git-flow before coding
+$ git checkout develop $ git pull origin develop --rebase $ git checkout -b issue-XXX  before push(squash)
+$ git commit -m &#39;some comment #&amp;lt;issue number&amp;gt;&#39; $ git log $ git rebase -i HEAD~2  before push(rebase)
+$ git status(gs) $ git pull origin develop --rebase &amp;lt;Fix merge conflict&amp;gt; $ git add . $ git rebase --continue $ git push origin issue-XXX  after push(merged to develop)</description>
+    </item>
+    
+    <item>
+      <title>idea</title>
+      <link>https://toshimitsu.tsuji.dev/posts/idea/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/idea/</guid>
+      <description> EC2 起動/停止のタイミングで Slack 通知 CHANGELOG 自動生成（lerna changelog/conventional changelog） 依存 LICENSE 自動生成（license-checker/）  https://kusuwada.hatenablog.com/entry/2019/02/06/114228  リリース自動化（release-it）  https://www.npmjs.com/package/release-it  コミットメッセージの強制（commitzen）  https://blog.solunita.net/write-easy-neat-git-commit-message/   </description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://toshimitsu.tsuji.dev/posts/react/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/react/</guid>
+      <description> Component  Microsoft UI Fabric React Patterns React Hooks + Redux Hooks + TypeScript で SPA を構築する
+ MS Office 用の React framework
+  Atlaskit  Bitbucket で使われている React framework  Blueprint  結構いけてる React Framework  Library react-intl  多言語対応 複数の Chrome ウィンドウで同時に異なる言語設定（i18n テストに便利）  react-ga  Google Analytics  Typescript  TodoList 簡易版@Typescript+React+Redux []()  </description>
+    </item>
+    
+    <item>
+      <title>service</title>
+      <link>https://toshimitsu.tsuji.dev/posts/service/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/service/</guid>
+      <description> LogRocket  無料でユーザの行動ログを取得できる  </description>
+    </item>
+    
+    <item>
+      <title>vscode</title>
+      <link>https://toshimitsu.tsuji.dev/posts/vscode/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/vscode/</guid>
+      <description> useful shortcut    key description     command k o 全ての関数を閉じる   command k j 全ての関数を開く    Color Scheme  Code Blue Ayu  </description>
+    </item>
+    
+    <item>
+      <title>API Management</title>
+      <link>https://toshimitsu.tsuji.dev/posts/api-management/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/api-management/</guid>
+      <description> 参考  APIマネジメント製品あれこれの比較 FinTech時代の銀行に求められるSoE/SoRアーキテクチャとAPI管理とは  </description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>https://toshimitsu.tsuji.dev/posts/2017-10-14-nodejs/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/2017-10-14-nodejs/</guid>
+      <description>Feature  Non-Blocking(Asynchronous and Event Driven)  callback, parallel disk access これまでの言語はWebサーバをマルチスレッドで動かすことで大量アクセスを捌いていた マルチスレッドといってもスレッド数には限界があった(C10K問題) Node.jsはcallback呼び出しによりI/Oによるブロッキングを受けないようにしシングルスレッドで大量アクセスを捌けるようにした JavaScriptのAjaxをサーバ側にも拡張している  Event Loop  callback関数の呼び出しをリッスンして待つ  V8 JavaScript Engine(Google Chrome) is very fast  NPM  Node Package Manager(online repositories)
+$ npm install (install all the modules in package.json) $ npm install --save (add the module dependency to package.json) $ npm install &amp;lt;Module Name&amp;gt; $ npm install &amp;lt;Module Name&amp;gt; -g (dependency globally)   File System  File I/O require(&amp;ldquo;fs&amp;rdquo;)</description>
+    </item>
+    
+    <item>
+      <title>sample</title>
+      <link>https://toshimitsu.tsuji.dev/posts/my-second-post/</link>
+      <pubDate>Mon, 18 Sep 2017 01:25:45 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/my-second-post/</guid>
+      <description>Introduction One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+My Heading He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.
+My Subheading A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</description>
+    </item>
+    
+    <item>
+      <title>Motion Typo Hello</title>
+      <link>https://toshimitsu.tsuji.dev/posts/motion-typo-hello/</link>
+      <pubDate>Mon, 18 Sep 2017 01:07:49 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/motion-typo-hello/</guid>
+      <description>/** * 定数の宣言 */ // setTimeoutの秒数（言葉が変化する時間） var CHANGE_SPEED = 10; // setTimeoutの秒数（インターバルの時間） var INTERVAL_SPEED = 2000; // アスキーコードのミニマムリミット var MIN_ASCII_CODE = 48; // アスキーコードのマックスリミット var MAX_ASCII_CODE = 125; // 表示する言葉 var TARGET_WORDS = new Array( &#34;world&#34;, &#34;tsujimitsu&#34;, &#34;javascript&#34;, &#34;art&#34;, &#34;design&#34;, &#34;motion&#34;, &#34;typo&#34;, &#34;graphic&#34;, &#34;thank&#34;, &#34;you&#34;, &#34;very&#34;, &#34;much&#34; ); // 表示する先（ID） var DISPLAY_ID = &#34;hello&#34;; /** * インターバルを置く．次の文字列へセットする． * * @param 文字配列 currentWordAsciiCode(array), ナンバー targetWordNumber(int) * @return true * */ function interval(currentWordAsciiCode, targetWordNumber) { // 引数targetWordNumberがundefinedなら0を代入する if (targetWordNumber == undefined) { targetWordNumber = 0; // targetWordNumberが長さを超えた場合0に戻す } else if (targetWordNumber = TARGET_WORDS.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://toshimitsu.tsuji.dev/posts/my-first-post/</link>
+      <pubDate>Mon, 18 Sep 2017 01:07:49 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/my-first-post/</guid>
+      <description> Test  this is test posts
+import test print(123)   </description>
+    </item>
+    
+    <item>
+      <title>Zero One</title>
+      <link>https://toshimitsu.tsuji.dev/posts/zero-one/</link>
+      <pubDate>Mon, 18 Sep 2017 01:07:49 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/zero-one/</guid>
+      <description>var i,y; var html,rand; function $(id){ return document.getElementById(id) } for(i=0; i&#34; for(y=0; y&#34; + rand + &#34;&#34;; } $(&#34;table&#34;).innerHTML += html + &#34;&#34; } function change() { var x,y,id; x = Math.floor( Math.random() * 19 ); y = Math.floor( Math.random() * 69 ); id = x + &#34;-&#34; + y; var target = $(id).innerHTML; if(target == 0){ $(id).innerHTML = 1; } else { $(id).innerHTML = 0; } setTimeout(&#34;</description>
+    </item>
+    
+    <item>
+      <title>AWS IoT</title>
+      <link>https://toshimitsu.tsuji.dev/posts/aws-iot/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/aws-iot/</guid>
+      <description> 使い方  AWS IoT 今すぐ始める 接続 -&amp;gt; デバイスの設定 今すぐ始める Linux/OSX, Node.js 接続キットのダウンロード 以下をデバイスで実行
+unzip connect_device_package.zip chmod +x start.sh ./start.sh  登録 -&amp;gt; モノ
+ モノの登録
+ モノの作成
+ セキュリティ -&amp;gt; 証明書の作成
+ 以下のダウンロード
+ このモノの証明書 パブリックキー プライベートキー  有効化
+ 完了
+  </description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://toshimitsu.tsuji.dev/posts/hugo/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/hugo/</guid>
+      <description>Go  Download
+# cd ~ # wget https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz # ls -l go* -rw-r--r--. 1 root root 102601309 Aug 25 07:44 go1.9.linux-amd64.tar.gz  Install
+# tar -C /usr/local -xzf go1.9.linux-amd64.tar.gz # ls -ld /usr/local/go/ drwxr-xr-x. 11 root root 265 Aug 25 06:51 /usr/local/go/ # vi ~/.bash_profile PATH=$PATH:$HOME/bin:/usr/local/go/bin # source ~/.bash_profile # go version go version go1.9 linux/amd64  Test
+# vi hello.go package main import &amp;quot;fmt&amp;quot; func main() { fmt.</description>
+    </item>
+    
+    <item>
+      <title>Agile</title>
+      <link>https://toshimitsu.tsuji.dev/posts/2016-12-12-agile/</link>
+      <pubDate>Mon, 12 Dec 2016 00:27:44 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/2016-12-12-agile/</guid>
+      <description> プロダクトバックログ（マスターユーザストーリー）  ユーザーストーリーの集合体 100個以内（多く入れすぎない）  ユーザーストーリー  受け入れ基準＝テスト可能  ストーリーは最低3～5個受け入れ基準を持つ  ユーザーストーリーとして記述しにくいものは、システムにおける制約・制限に対する記述の場合が多い  スプリント  1～2週間のタイムボックスで分割されている期間（分析、設計、開発、テスト、デモ、承認） スプリント完了の定義は明確にしておく（作業者と依頼者の認識は同じか？） スプリントの構成  スプリント計画ミーティング デイリースクラム スプリントレビュー 振り返り   参考にしたいアジャイル関連資料  アジャイル・スクラム導入に際して、参考にしていたサイト集 SCRUM/アジャイル開発の入門資料を全力でまとめてみた  参考書  アジャイルサムライ−達人開発者への道− SCRUM BOOT CAMP THE BOOK アジャイルな見積りと計画づくり ~価値あるソフトウェアを育てる概念と技法~ アジャイルプラクティス  Memo  冬休みの宿題かな  </description>
+    </item>
+    
+    <item>
+      <title>Weekly Report</title>
+      <link>https://toshimitsu.tsuji.dev/posts/2015-12-04-weekly-report/</link>
+      <pubDate>Sun, 04 Dec 2016 22:46:44 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/2015-12-04-weekly-report/</guid>
+      <description> DockerとLinux OSのリソース共有状況の調査 dockerコンテナがホストに与える影響についてカーネル別に検証、解説されている。 2015年の情報なので今時点では再度確認が必要ですが、評価観点について 非常に参考になる記事です。
+OSSのDockerコンテナ環境管理ソフト 注目の5製品紹介 2016年版 (1&amp;frasl;7) コンテナ環境管理ソフトの比較記事。2016年末版なので比較的新しい。 オーケストレータ（k8s, swarm）よりさらに上位層の話。 あまり聞きなれないソフトウェアがでてくる。Mesos, OpenShift以外は初めて知った。 コンテナ関連で面白いのはコンテナを管理するためのマネージャをコンテナ上で動作させる ソフトウェア構成が一般的になりつつあるってとこ。
+Docker ドキュメント日本語化プロジェクト dockerドキュメントの日本語化プロジェクト。 githubで管理されており、プルリクで貢献できるとのこと。
+Neutron networking with Red Hat Enterprise Linux OpenStack Platform Neutron関連の機能やモジュール配置についてわかりやすい図で表現されている。
+Advent Calendar関連 openstackとdocker関連のAdvent Calendar。参考になりそうな情報満載。
+ Docker Advent Calendar 2016 CrowdWorksのDocker開発環境 OpenStack Advent Calendar 2016  </description>
+    </item>
+    
+    <item>
+      <title>Hugo on CentOS 7</title>
+      <link>https://toshimitsu.tsuji.dev/posts/hugo-on-centos7/</link>
+      <pubDate>Sat, 03 Dec 2016 18:37:44 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/hugo-on-centos7/</guid>
+      <description>tl;dr  CentOS 7上でHugoを動作させる 作成したコンテンツは travisでビルドし、Github Pages で公開する  Hugo install $ cat /etc/redhat-release CentOS Linux release 7.2.1511 (Core) $ yum -y install git go $ yum list installed | grep -E &#39;^git|^golang&#39; git.x86_64 1.8.3.1-6.el7_2.1 @updates golang.x86_64 1.6.3-1.el7_2.1 @updates golang-bin.x86_64 1.6.3-1.el7_2.1 @updates golang-src.noarch 1.6.3-1.el7_2.1 @updates $ cd /opt $ export GOPATH=$HOME/go $ go get -v github.com/spf13/hugo $ vi /root/.bash_profile PATH=$PATH:$HOME/bin:$HOME/go/bin $ source /root/.bash_profile $ hugo help $ hugo version Hugo Static Site Generator v0.</description>
+    </item>
+    
+    <item>
+      <title>Jenkins CI</title>
+      <link>https://toshimitsu.tsuji.dev/posts/jenkins-ci/</link>
+      <pubDate>Sat, 26 Dec 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/jenkins-ci/</guid>
+      <description> pytestでのCI環境  pythonのアプリケーションをjenkinsでCIする。  CentOS7へのjenkinsインストール  jenkisのページでyumリポジトリとして公開されているためオンラインインストールが可能となっている。  ビルド失敗時のメール通知  何かスクリプトを噛ます必要があるものと考えていたがjenkins自体に通知設定がある。 gmail側でsmtpメール送信を許可する追加設定が必要となる。  reference  pytestとjenkinsでCI環境を構築 python2と3のテスト pythonとjenkinsの連携 pythonをnoseでテスト pytestのオススメプラグイン pythonとdjango関連のテスト事情 CentOS7へのjenkinsインストール jenkinsでビルドが失敗した時にgmailにメール通知する  </description>
+    </item>
+    
+    <item>
+      <title>Python Script on AWS Lambda</title>
+      <link>https://toshimitsu.tsuji.dev/posts/python-script-on-aws-lambda/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/python-script-on-aws-lambda/</guid>
+      <description> Step1 select blueprint  select &amp;ldquo;Lambda&amp;rdquo; from AWS Management Console select &amp;ldquo;lambda-canary&amp;rdquo;  Step2 configure event sources  Event source type: &amp;quot;Scheduled Event&amp;quot; Name: &amp;quot;foobar&amp;quot; Description: &amp;quot;foobar&amp;quot; Schedule: &amp;quot;rate(5 minutes)&amp;quot;  Step3 configure function  Name: &amp;quot;foobar&amp;quot; Description: &amp;quot;foobar&amp;quot; Runtime: &amp;quot;Python 2.7&amp;quot; function code: &amp;quot;python script&amp;quot; Handler: &amp;quot;lambda_function.lambda_handler&amp;quot; Role: &amp;quot;lambda_basic_execution&amp;quot; Memory(MB): &amp;quot;128&amp;quot; Timeout: &amp;quot;10sec&amp;quot;  reference  AWS Lambda��Python��Schedule���s������  </description>
+    </item>
+    
+    <item>
+      <title>Linux Login Check</title>
+      <link>https://toshimitsu.tsuji.dev/posts/linux-login-check/</link>
+      <pubDate>Fri, 09 Oct 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/linux-login-check/</guid>
+      <description> # last # last | grep &amp;quot;still logged in&amp;quot; # date; last | grep &amp;quot;still logged in&amp;quot; # last | grep -E &amp;quot;119.72.198.200|119.72.195.161&amp;quot; # last | grep -Ev &amp;quot;119.72.198.200|119.72.195.161&amp;quot; # cat /var/log/secure | grep &amp;quot;Failed password&amp;quot; # lastb | awk &#39;{print $1}&#39; | sort | uniq -c | sort -nr | head -10 # cat /var/log/secure | grep sshd:session # cat /etc/logrotate.conf /var/log/wtmp { monthly create 0664 root utmp minsize 1M rotate 1 } # df -h # w # iostat # top -b # vmstat # top n 1 b # top n 1 b | grep -E &amp;quot;^top|^Tasks:|^Cpu(s):|^Mem:|^Swap:&amp;quot; Linuxのメモリ空：free（１行目） + buffers + cached   Linuxサーバーの不正アクセス監視コマンド Linuxサーバーへ不正ログインを試みたユーザー一覧を出すワンライナー Linuxサーバの負荷や使用率を調査するコマンドと手順 topコマンドの使い方 【RHEL】linuxのメモリ使用率(利用率)の計算方法 Linux のメモリー管理 freeコマンドの見方  </description>
+    </item>
+    
+    <item>
+      <title>Jalan WebAPI</title>
+      <link>https://toshimitsu.tsuji.dev/posts/jalan-webapi/</link>
+      <pubDate>Sun, 04 Oct 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/jalan-webapi/</guid>
+      <description> じゃらんWebサービスとは  じゃらんnetが提供する宿泊宿、空室検索用WebAPI  API の種類  じゃらん宿表示API（アドバンス） じゃらん宿表示API（ライト） 空室検索API エリア検索API 温泉検索API  APIの制限  特定IPアドレスからの一定時間内での連続アクセスは制限される。（制限条件は非公開）  API の取得  以下のページからアカウント登録することでAPI-KEYがメール送付される。 https://www.jalan.net/jw/jwp0400/jww0401.do  API の利用例  リクエストURL: http://jws.jalan.net/APILite/HotelSearch/V1/? key: API-KEY pref: 都道府県に割り当てられたコード http://jws.jalan.net/APILite/HotelSearch/V1/?key=XXXXXX&amp;amp;pref=270000 結果は XML 形式で返却される。API利用制限等のエラー時はエラーXMLが返却される。
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; ?&amp;gt; &amp;lt;Error xmlns=&amp;quot;jws&amp;quot;&amp;gt; &amp;lt;Message&amp;gt;アクセスが拒否されました。&amp;lt;/Message&amp;gt; &amp;lt;/Error&amp;gt;   jalan のエリア横断検索  jalan のWeb検索には複数エリアをまたいでの検索機能がなかったのでAPIで実装。 jalan 横断検索  コメント  都道府県をキーにした検索ができない点が不便。検索結果が多くなるから？ APIの利用制限が厳しい。一定期間連続アクセスがあると遮断（HTTP 406が返却される）されるとあるが、2分に一回の間隔でもNGになるため使いづらい。  reference  じゃらんWebサービス じゃらんWebサービス エリアコード じゃらんAPIを使ってさまざまな条件から日本中の宿と温泉を検索してみよう  </description>
+    </item>
+    
+    <item>
+      <title>Apache Content Negotiation Settings</title>
+      <link>https://toshimitsu.tsuji.dev/posts/apache-content-negotiation-settings/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/apache-content-negotiation-settings/</guid>
+      <description>Apache content negotiation settings  check default settings about Apache vim /etc/httpd/conf/httpd.conf # # For type maps (negotiated resources): # (This is enabled by default to allow the Apache &amp;quot;It Worked&amp;quot; page # to be distributed in multiple languages.) # AddHandler type-map var cd /var/www/html/ ls -l -rw-r--r--. 1 root root 17 Sep 21 09:49 index.en.html -rw-r--r--. 1 root root 93 Sep 21 09:49 index.html.var -rw-r--r--. 1 root root 19 Sep 21 09:50 index.</description>
+    </item>
+    
+    <item>
+      <title>Ruby on Rails Primer</title>
+      <link>https://toshimitsu.tsuji.dev/posts/ruby-on-rails-primer/</link>
+      <pubDate>Sat, 29 Aug 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/ruby-on-rails-primer/</guid>
+      <description>ruby on rails の特徴  MVCモデルを採用  Model  Model は ActiveRecord を利用 SQLite3, MySQL, PostgreSQL に標準対応  View  ERB(Embedded RuBy), Haml, Slim といったテンプレートエンジンを利用  Controller  Action(GET, POST, PATCH(PUT), DELETE) を定義  install(centos)  # ruby -v ruby 2.1.2p95 (2014-05-08 revision 45877) [x86_64-linux] # gem install rails # gem list rails *** LOCAL GEMS *** rails (4.2.4) rails-deprecated_sanitizer (1.0.3) rails-dom-testing (1.0.7) rails-html-sanitizer (1.0.2) sprockets-rails (3.0.0.beta2) # rbenv rehash # rails -v Rails 4.</description>
+    </item>
+    
+    <item>
+      <title>Electron Debugging</title>
+      <link>https://toshimitsu.tsuji.dev/posts/electron-debugging/</link>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/electron-debugging/</guid>
+      <description> electron でデバッグを行う方法の１つ  electron-debug ツールを利用する  electron-debug の利用  dir &amp;gt;index.html main.js ... npm install --save electron-debug dir &amp;gt;index.html main.js node_modules \electron-debug ... vim main.js &amp;gt;require(&#39;electron-debug&#39;)(); vim package.json &amp;gt;&amp;quot;dependencies&amp;quot;: { &amp;quot;electron-debug&amp;quot;: &amp;quot;^0.2.0&amp;quot; } electron . &amp;gt;WindowsOSの場合は、F12でDev Tools起動、Ctrl+Rで再読み込み。  Reference  sindresorhus/electron-debug  </description>
+    </item>
+    
+    <item>
+      <title>Electron Primer</title>
+      <link>https://toshimitsu.tsuji.dev/posts/electron-primer/</link>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/electron-primer/</guid>
+      <description>node のインストール  windows installer(.msi) をインストール。
+node -v &amp;gt; v0.12.7   Electron のインストール  npm -g install electron-prebuilt &amp;gt;electron-prebuilt@0.31.0 C:\Users\XXXX\AppData\Roaming\npm\node_modules\electron-prebuilt ├── extract-zip@1.0.3 (debug@0.7.4, minimist@0.1.0, async@0.9.0, yauzl@2.3.1, mkdirp@0.5.0, through2@0.6.3, concat-stream@1.5.0) └── electron-download@1.0.8 (path-exists@1.0.0, home-path@0.1.2, debug@2.2.0, mkdirp@0.5.1, mv@2.1.1, nugget@1.5.4) npm ls -g electron-prebuilt &amp;gt;└── electron-prebuilt@0.31.0  Application 作成  pwd .../node/electron-sample npm init &amp;gt; 全てEnter（デフォルト）で作成 dir &amp;gt; package.json &amp;gt;&amp;gt; package.json の main を index.jsからmain.jsへ変更している。 vim main.js vim index.html dir &amp;gt; package.</description>
+    </item>
+    
+    <item>
+      <title>Scala Primer</title>
+      <link>https://toshimitsu.tsuji.dev/posts/scala-primer/</link>
+      <pubDate>Fri, 14 Aug 2015 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/scala-primer/</guid>
+      <description>Scalaのオブジェクト  シングルトンクラス = Scala のオブジェクト。 インスタンスのように複数作成はできない。  #コンパイル
+ scalac HelloWorld.scala scala HelloWorld scalac -d classes HelloWorld.scala scala -cp classes HelloWorld  for構文  ジェネレータを用いる（eachのようなもの？）
+for (n:Int &amp;lt;- Range(1,101)) total += n  for条件にフィルタをかけることができる
+for (n:Int &amp;lt;- Range(1,101); if (n % 2 == 0)) total += n   メソッドと関数  Java同様にメソッドが存在する
+object HelloWorld { def main(args: Array[String]) = { println(&amp;quot;Hello World&amp;quot;) } def pritest(s: String) = { println(s) } }  App trait を使うと main メソッドを省略できる</description>
+    </item>
+    
+    <item>
+      <title>HTTPS for AWS ELB(Elastic Load Balancer)</title>
+      <link>https://toshimitsu.tsuji.dev/posts/https-for-aws-elb/</link>
+      <pubDate>Thu, 11 Dec 2014 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/https-for-aws-elb/</guid>
+      <description>Introduction  本記事はHZ Colloquium Advent Calendar 2014の12/11分の記事です。 前回記事（Welcome to WebAPI World）の続きとなります。  前回までのあらすじ WebAPIを作ってみたくて色々調べてみたよってところまでは話した。が、実装まではたどりつけませんでした。 せっかくのWebAPIだからロードバランサで可用性担保しつつ、SSLなセキュアAPIを実現！という夢を語りました。
+本日のお話 「せっかく」のところを実現してみました。ロードバランサとSSL通信のことです。 具体的にはAWSのロードバランササービス「ELB(Elastic Load Balancer)」の設定と クライアントからのHTTPS通信でのアクセスの実現です。結構ウェブ上に情報はあったので それほど苦労もなく実現できてしまいました。 なお、下記サイトに書いてあることとほぼ同じことをやった感じ。 全て網羅されてまとめられていて大変感謝です。 * AWSのELBにSSLを設定する（Nginx）
+おしながき  PayPalへの登録（おまけ） SSL証明書の購入手続き ELBの設定（SSL証明書の導入） ドメインとELBの紐づけ  PayPalへの登録 SSL証明書の購入に必要だった＋初体験ってこともあったので登録してみました。 完璧には仕組みがわかってなかったんですけども、簡単に使えてます。 サービス利点としては、各ネット店舗での購入の際に毎回クレジットカード番号を 入れないといけないのを、一度PayPalにクレジット情報を登録しておけば、 PayPalとネット店舗間でお金のやり取りをやってくれるってところ。 初め理解ができなかったのは、上記以外にも「送金」ができるってところ。 日本の中では銀行以外が送金業務できないので実質は初めに行ったサービスだけ 使えるんだけど、法改正とかあるらしくて近く「送金」できるようになるみたい。 まぁネット上の銀行口座にクレジットから振り込みできるってことかな。 ちなみに、登録にはほぼ迷うことなく完了。
+SSL証明書の購入手続き メールアドレスの準備 SSL証明書を購入する際は、正しいドメインの所有者か確認するため（？）に ドメイン名のメールアドレスにメールが送られてくる。 admin@codelogue.com とかを用意する（SSL証明書購入時に いくつか選択肢がでてくるので、それを確認してから作成でもよい） なお、独自ドメインで無料メールアドレスを持とうとすると、意外と狭き道だった。 （運よく昔作ったGoogle Appsのアカウントが有効だったため助かった）
+CSRの作成 AWSのELBに証明書を登録するためにはパスフレーズなしにする必要がある。
+# 秘密鍵の作成（パスフレーズは適当に） openssl genrsa -des3 -out aws-elb.key.pem 2048 # 秘密鍵からパスフレーズを削除 openssl rsa -in aws-elb.</description>
+    </item>
+    
+    <item>
+      <title>Welcom to WebAPI World</title>
+      <link>https://toshimitsu.tsuji.dev/posts/welcome-to-webapi-world/</link>
+      <pubDate>Fri, 05 Dec 2014 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/welcome-to-webapi-world/</guid>
+      <description>Introduction  本記事はHZ Colloquium Advent Calendar 2014の12/5分の記事です。 今日は過激に適当な話も入れながら WebAPI について書いていく。 なお、お仕事で課題を見事に解決できず、明日死亡フラグがたっているなかでの執筆なため 全体的にテンションはおかしめ。 Atom + middleman にて配信中。やっと静的サイトジェネレータの良さがわかってきたころあい。  Welcome to WebAPI World 　これを書きながら Web2.0, Mashup などの言葉を思い出す（だいぶ昔の話なのか）。 それらを構成する要素にWebAPIってやつもあった。API (Application Programming Interface)です。 Webの技術をベースにしたAPIです。Webの技術ってなんでしょうか。それはHTTP(HTTPS)やURIのことです。 プロトコルのことです。
+ここで思考をもっていってほしくない方向は「HTML = Web」って考え方です。Webページとかの延長線上の話としては 捉えないほうがよいと思います。いったん忘れましょう。
+WebAPIといってもいくつか宗教があります。SOAP, WSDL, REST, RESTfulなどがそれです。 今はREST, RESTfulが全盛です。SOAPやWSDLは仕様が複雑すぎてはやらなかったらしいです。 このあたりの歴史は「Webを支える技術」に書いてます。Web関係のエンジニアはあれを読むべき。 「Web」の捉え方が少し変わるから。
+REST(ful) WebAPIとは REST(REpresentation State Transfer)の略です。アーキテクチャ（設計方法？設計原則？ととらえればよいのか） の名前です。RESTな方針に沿って設計されているシステムをRESTfulなシステムというらしい。 RESTを極めたものの証なのです。下記はRESTの特徴です。4つ書きます。もう少しあった気もします。
+リソース 以下は全てリソースです。 * 大阪の天気 * 俺の明日の予定 * 飲み会の写真
+リソースの識別子 全てのリソースは1つ以上の識別子を持ちます。「大阪の天気」だとこうなる。なるほど、識別子とか小難しいが RESTではURIでの指定になるんですね。
+ http://weather.yahoo.co.jp/weather/jp/27/6200.html  ちなみに1つ以上と書いたのは、上記は以下のURIでも同様だから（以下は仮ね）。つまり、同じ情報でも 捉え方は複数あるよということ。そのためにリソース自体が複数識別子で参照されることがありえる。
+ http://weather.yahoo.co.jp/weather/today/osaka.html  どうですか？なんだかセマンティックな話ですよね。セマンティックウェブ！です。ちょっと違うけどそそるでしょ？</description>
+    </item>
+    
+    <item>
+      <title>Middleman to Amazon S3</title>
+      <link>https://toshimitsu.tsuji.dev/posts/middleman-to-amazon-s3/</link>
+      <pubDate>Sun, 23 Nov 2014 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/middleman-to-amazon-s3/</guid>
+      <description>AWS にデプロイ用ユーザを作成  IAM(Identity and Access Management)でTravis CIからのデプロイ用ユーザ作成 デプロイ用ユーザにAmazon S3更新権限を付与（Attach User PolicyからAmazon S3 Full Access)  Amazon S3 にバケツ（公開用フォルダ）作成  Amazon S3にバケツを作成。PropertiesからStatic Website HostingをEnable website hostingにする。 Index Documentにindex.htmlを指定  Travis CI の設定 AWSデプロイ用ユーザ作成時のAccess Key IDを暗号化
+# travis encrypt -r tsujimitsu/codelogue *********** Please add the following to your .travis.yml file: secure: &amp;quot;**********&amp;quot;  同じ要領でSecret Access Keyも暗号化（-rの後ろはgithubのリポジトリを指定）
+travis encrypt -r tsujimitsu/codelogue ********** Please add the following to your .travis.yml file: secure: &amp;quot;**********&amp;quot;  travis.</description>
+    </item>
+    
+    <item>
+      <title>lightline.vim</title>
+      <link>https://toshimitsu.tsuji.dev/posts/lightline-vim/</link>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/lightline-vim/</guid>
+      <description>itchyny/lightline.vim lightline.vim - A light and configurable statusline/tabline for Vim VIMのステータスラインを機能拡張してくれるプラグイン。ファイル名や文字コードが表示されており、一目でわかるようになります。また、現在のモード（insert, view等）が視覚的に色で区別されるためinsertモードで操作したことによる誤入力を防止できそうです。 とりあえず、これを使っていると傍からはできる人に見えます（想定）</description>
+    </item>
+    
+    <item>
+      <title>Active Directory Light Weight Directory Service</title>
+      <link>https://toshimitsu.tsuji.dev/posts/active-directory-light-weight-directory-service/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/active-directory-light-weight-directory-service/</guid>
+      <description>参考文献  AD LDS  http://technet.microsoft.com/ja-jp/library/cc732019(v=ws.10).aspx  AD LDSの概要  http://technet.microsoft.com/ja-jp/library/cc733064(v=ws.10).aspx  AD LDS インスタンスとは  http://technet.microsoft.com/ja-jp/library/cc770698(v=ws.10).aspx  AD LDS スキーマとは  http://technet.microsoft.com/ja-jp/library/cc753882(v=ws.10).aspx  AD LDS レプリケーションおよび構成セットとは  http://technet.microsoft.com/ja-jp/library/cc770465(v=ws.10).aspx  新しいAD LDSインスタンスの作成  http://technet.microsoft.com/ja-jp/library/cc731687(v=ws.10).aspx  既存のAD LDSインスタンスのレプリカを作成する  http://technet.microsoft.com/ja-jp/library/cc725829(v=ws.10).aspx  LDIF ファイルからデータをインポートする  http://technet.microsoft.com/ja-jp/library/cc771986(v=ws.10).aspx  アプリケーション ディレクトリ パーティションの作成  http://technet.microsoft.com/ja-jp/library/cc771757(v=ws.10).aspx  ディレクトリ パーティションの操作  http://technet.microsoft.com/ja-jp/library/cc730613(v=ws.10).aspx  グループ メンバーシップを管理する  http://technet.microsoft.com/ja-jp/library/cc770527(v=ws.10).aspx  AD LDS インスタンスのバックアップまたは復元  http://technet.microsoft.com/ja-jp/library/cc733082(v=ws.10).aspx  AD DS のデータを AD LDS と同期する  http://technet.</description>
+    </item>
+    
+    <item>
+      <title>Dsget Commnad on ADLDS</title>
+      <link>https://toshimitsu.tsuji.dev/posts/dsget-command-on-adlds/</link>
+      <pubDate>Mon, 27 May 2013 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/dsget-command-on-adlds/</guid>
+      <description>AD LDSの役割を追加するだけでは、dsget, dsaddなどのコマンドが使えない。なので、Active Directory ドメインサービスの役割を追加して、サービスは起動せずにコマンドだけ使う。（powershellからアクセスできるが異様に遅い）
+ http://adtan.wordpress.com/2012/02/12/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%B8%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC/ http://adtan.wordpress.com/2012/01/02/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%92%E5%89%8A%E9%99%A4/
+# dsget group “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -members -s lds01:389 # dsmod group “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -addmbr “CN=test01,OU=Groups,DC=codelogue,DC=com” -s lds01:389 # dsrm “CN=test01,OU=Users,DC=codelogue,DC=com” -s lds01:389 -noprompt   dsrmは削除するか確認が返ってくるのでnopromptで自動返答する</description>
+    </item>
+    
+    <item>
+      <title>CLI ADLDS</title>
+      <link>https://toshimitsu.tsuji.dev/posts/cli-adlds/</link>
+      <pubDate>Sun, 26 May 2013 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/cli-adlds/</guid>
+      <description>ユーザグループ追加などの作業で必要となる。
+ Windows 2008 R2: Managing AD LDS using the AD PowerShell Module  以下はコマンド例。
+New-ADUser -name “test01” -Displayname “test01” -server lds01:389 -Path “OU=Users,DC=codelogue,DC=com” Add-ADGroupMember -identity “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -member “CN=test01,OU=Users,DC=codelogue,DC=com” -partition “DC=codelogue,DC=com” -server lds01  powershellをコマンドプロンプトから呼び出してバッチ処理する
+ http://news.mynavi.jp/column/powershell/013/index.html http://technet.microsoft.com/ja-jp/scriptcenter/powershell_owner05.aspx http://d.hatena.ne.jp/mokkyu/20080421/1208728868   ファイルを準備する
+C:¥Users¥Administrator¥Desktop¥Test.ps1 Import-Module ActiveDirectory New-ADUser -name “test01” -Displayname “test01” -server lds01:389 -Path “OU=Users,DC=codelogue,DC=com” Add-ADGroupMember -identity “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -member “CN=test01,OU=Users,DC=codelogue,DC=com” -partition “DC=codelogue,DC=com” -server lds01  コマンドプロンプトを開く
+C:¥Users¥Administrator¥Desktop&amp;gt; # powershell Set-ExecutionPolicy RemoteSigned # powershell .</description>
+    </item>
+    
+    <item>
+      <title>Port-forward on Linux</title>
+      <link>https://toshimitsu.tsuji.dev/posts/port-forward-on-linux/</link>
+      <pubDate>Sun, 26 May 2013 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/port-forward-on-linux/</guid>
+      <description>Linuxをルータ化して二つのセグメントを受け渡しする方法。
+ http://okwave.jp/qa/q7892385.html  上記サイトに載っている内容プラスiptablesを無効化しないとだめ。 なお、各セグメントに接続されている端末にはGATEWAYかスタティックルートをLinuxルータに向けておく必要あり。
+ http://lists.debian.or.jp/debian-users/200709/msg00166.html  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/firebase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/firebase/</guid>
+      <description> Firebase(Google) realm 利用方法  https://realm.io/docs/javascript/latest  realm を link した状態で ios アプリがデプロイできない  react-native run-ios コマンドで行う  https://realm.io/docs/javascript/latest/#missing-realm-constructor   Command $ npm install -g firebase-tools $ firebase login $ firebase init $ vi public/index.html $ firebase deploy  Create CI Auth Token firebase login:ci firebase deploy --token &amp;quot;$FIREBASE_TOKEN&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/adminlte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/adminlte/</guid>
+      <description> AdminLTE導入手順  ソースコードのダウンロード 以下のURLからZipファイルをダウンロードする
+ https://github.com/almasaeed2010/AdminLTE/releases  Zipファイルの解凍
+ AdminLTE-X.X.Xフォルダ配下にpractice.htmlを作成
+  依存ファイル  Bootstrap 3 jQuery 1.11+  サポートブラウザ  IE9+ Edge(latest) Firefox(latest) Safari(latest) Chrome(latest) Opera(latest)  ライセンス  MIT License  参考資料  Qiita - 管理画面を作る：AdminLTE 基本編  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/agile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/agile/</guid>
+      <description> Agile  アジャイル開発をやっていないとはどういうことか？  Design 指向  デザイン的思考が生み出す 5 つのビジネスアドバンテージ  YAGNI  それは YAGNI か? それとも思考停止か?  Lean  今さら聞けないリーンスタートアップの基本  Scrum  IPA アジャイル開発の進め方 認定スクラムマスターの俺が正しいスクラムの理論をまとめてみた  Sprint  アトラシアンにおける スプリント計画 の方法 5 分でわかった気になるインセプションデッキ アジャイルサムライに学ぶ、インセプションデッキの作り方社内勉強会開いた  Retrospective  非スクラムチームに贈る「ふりかえり」の処方箋 Good/Bad と 事実/気持ち から始める「ふりかえり」の手引き アジャイルなレトロスペクティブのすすめ  変わらない開発現場シリーズ（MS）  『変わらない開発現場』シリーズ 情報ポインタ一覧 拝啓『変わらない開発現場』を嘆く皆様へ ～変わっていくエンタープライズ系業務システム開発とマイクロソフトエンタープライズサービスの取り組み～ Agile も DevOps も銀の弾丸なんかじゃない 業務システム開発 モダナイゼーションガイド 本番環境などという場所はない(前編) 本番環境などという場所はない(後編)  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/architecture/</guid>
+      <description> Architecture  kawasima アーキテクチャ大全  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/aws/</guid>
+      <description>AWS Black Belt  AWS Black Belt Online Seminar 2017 AWS Elastic Beanstalk AWS Black Belt Online Seminar AWS Code Services Part 2  Certificate  業務で開発経験なしでも取れる AWS 認定デベロッパーアソシエイトの勉強法  AWS CDK  cdkworkshop  ALB  AWS ALB でホストベースルーティング設定  サブドメイン別のホスト名でルーティング先の EC2 を分ける   NLB  IP ターゲットのパターンであれば、IGW や NAT Gateway がなくても EC2 と通信できる  https://dev.classmethod.jp/cloud/aws/load-balancing-private-ec2-rds-nlb/  Multi-AZ で Cross-Zone 負荷分散するためには、各 AZ に１つずつの NLB 配置が必要 AWS Network Load Balancer(NLB)のソース IP とターゲットのセキュリティグループ留意点まとめ 静的な IP アドレスを持つ NLB が TLS Termination に対応してアクセスログも出力可能に！ NLB で複数 AZ 構成での挙動 Network Load Balancer（NLB）でクロスゾーン負荷分散が可能になりました NLB (Network Load Balancer)の作成メモ  VPC  VPC 内で作成した EC2 であれば、Private IP は EC2 が停止しても固定されて変化しない  https://qiita.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/design/</guid>
+      <description> Design UI Design Adobe XD  デザイン制作が捗る、個人的におすすめな Adobe XD の便利プラグイン 20  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/docker/</guid>
+      <description> Docker  DCSF19 Dockerfile Best Practices  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/electron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/electron/</guid>
+      <description>electron  Chromium(Chrome ブラウザのエンジン)と Node.js がランタイムになる Visual Studio Code(Microsoft)や Atom(GitHub)，Slack，Skype の開発に採用されている  その他の採用事例はawesome-electronに掲載されている   Install  最新版で学ぶ Electron 入門 – HTML5 で PC アプリを開発する利点と手順  Environment $ npm -v 5.8.0 $ node -v v9.8.0  npm init $ npm init (all enter)  npm install $ npm i --save-dev electron $ mkdir src  create entry point $ vi src/package.json { &amp;quot;main&amp;quot;: &amp;quot;main.js&amp;quot; }  create app $ vi src/main.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/enebular/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/enebular/</guid>
+      <description> enebular  enebular blog enebular Advent Calendar 2016  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/gitlab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/gitlab/</guid>
+      <description> GitLab  gitlab/gitlab-ce コンテナイメージを使う場合は、イメージ内にデータベース（postgres）も含まれている  docker  デプロイ
+ https://yoshinorin.net/2017/04/08/gitlab-using-by-docker/ https://docs.gitlab.com/omnibus/docker/
+$ docker run -d --name mygitlab --hostname 192.168.0.5 -p 8000:80 --restart always -v /Users/tsujimitsu/Docker/gitlab/config:/etc/gitlab -v /Users/tsujimitsu/Docker/gitlab/logs:/var/log/gitlab -v /Users/tsujimitsu/Docker/gitlab/data:/var/opt/gitlab gitlab/gitlab-ce:latest ※以下のコマンドで起動するとgitlabへ接続できない $ docker run -d --name mygitlab --hostname 192.168.0.5 --env GITLAB_OMNIBUS_CONFIG=&amp;quot;external_url &#39;http://192.168.0.5:8000/&#39;&amp;quot; -p 8000:80 --restart always -v /Users/tsujimitsu/Docker/gitlab/config:/etc/gitlab -v /Users/tsujimitsu/Docker/gitlab/logs:/var/log/gitlab -v /Users/tsujimitsu/Docker/gitlab/data:/var/opt/gitlab gitlab/gitlab-ce:latest   ログイン
+ http://localhost:8000 パスワード変更後は root ユーザと変更後パスワードでログインできる  ログ
+$ docker logs mygitlab $ docker logs mygitlab -f   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/iot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/iot/</guid>
+      <description> IoT Book  Interface  Interface 2019 年 11 月号　水・海洋 IoT センシング＆カメラ実験研究 Interface 2018 年 10 月号　ラズパイ・カメラ・センサ IT 農耕実験   AI Assistant  【全 67 項目】Google アシスタント(OK グーグル)でできること・使い方 ～音声操作例付き紹介～  AWS IoT  AWS IoT Core リソース AWS IoT の賢い利用の仕方とプログラミングの勘所 iRobot は AWS クラウドを使用して次世代のスマートホームを開発する準備を進めている  IoT OS  Mongoose OS - IoT Firmware Development Framework  raspberry pi  Raspberry Pi で土壌湿度センサー(YL-69)から A/D コンバータ(MCP3002)を使ってデータを取ろう 初心者が始める Raspberry Pi3 で家庭菜園 IoT 化への道（まとめ）  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/jenkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/jenkins/</guid>
+      <description> Jenkins  jenkins はデータベースと連携しない（ファイル DB） 全てのデータは /var/jenkins_home に保存されるため、persistent volume にマウントして永続化する。  plugin, workspace も含まれる   docker  デプロイ
+ https://hub.docker.com/_/jenkins/ https://qiita.com/momoham/items/bf69c623c8968dc4f9da
+$ docker run -d --name myjenkins --restart always -p 8080:8080 -p 50000:50000 -v /Users/tsujimitsu/Docker/jenkins:/var/jenkins_home jenkins:2.60.3   ログイン
+ http://localhost:8080/ 初期設定の入力項目は全て入力していないと次のページへ遷移できないので注意する  ログ
+$ docker logs myjenkins $ docker logs myjenkins -f  プラグイン
+ Role-based Authorization Strategy [GitLab]()   その他  CI ツールとしては Drone.io も面白そう  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/kubernetes/</guid>
+      <description>https://store.docker.com/editions/community/docker-ce-desktop-mac Get Docker CE for Mac (Edge)
+Preference &amp;gt; Kubernetes Enable Kubernetes
+入門 Kubernetes  可用性を保ちながら素早くリリースをし続けるために必要なもの
+ immutability（イミュータブル） 一度リリースした物件には変更を加えない。変更する場合は別のリリース物件として出す apt-getでパッケージをアップデートしてシステムを最新化していくやり方はミュータブル declarative configuration（宣言的設定） あるべき状態を定義する。システムがその状態を維持するように動く 宣言的設定の反対は命令的設定 online self-healing system（自己回復するシステム） 絶えず「宣言的設定」で定義された状態であり続けられるように動く   コンテナの利点
+ 依存性の管理 カプセル化  kubectlバージョン
+ kubenertesのツールはマイナーバージョン２つまではkubernetes APIのバージョンと後方互換性、前方互換性がある  Pod
+ Pod内のコンテナは同一サーバ上で起動する Podは同一IPとポートを持つ Podのデプロイ情報はPodマニフェストに記述する.通常は読みやすくコメント付与できるYAML形式で作成する
+$ cat kuard-pod.yaml apiVersion: v1 kind: Pod metadata: name: kuard spec: containers: - image: gcr.io/kuar-demo/kuard-amd64:1 name: kuard ports: - containerPort: 8080 name: http protocol: TCP  ※以下のコマンドはほぼ同義 $ docker run -d --name kuard --publish 8080:8080 gcr.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/kubernetes_meetup_tokyo_11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/kubernetes_meetup_tokyo_11/</guid>
+      <description>Kubernetes Meetup Tokyo #11  KubeConのrecap  セキュリティ関連　Ian Lewis (Google)  Secure Pods
+ これからk8sに組み込みたい コンテナはカーネル上で基本動くのでカーネルにバグがあるとホストが乗っ取られる可能性がある ホストを乗っ取られないようにカーネル以外にも壁を作り２層にする Sandbox Podsを噛ませてセキュリティをあげる どうやってk8sに組み込むかはこれから（まだデザインフェーズ）  Container Isolation at Scale (Introducing gVisor)
+ Googleは始めコンテナをrootユーザで動かしていた 割とすぐに一般ユーザで実行するようにしたらしい ユーザからのデータがコンテナ内に流入してくるとコンテナのセキュリティは落ちる VMで実行するとVMに割り当てるリソースが他に回せない。また一度メモリを増やすと基本減らせない VMだとゲストOSが丸々動いてオーバーヘッドがある  Lightweightな環境を維持できなくなる  gVisorはSentryを使う。Sentryはユーザスペースで動くLinuxカーネルといった位置付け ユーザスペースで動いているのでできることが限定される ファイルシステムにはGoferが代理でアクセスする   Performance and Scale @ Istio Service Mesh (CyberAgent)  IstioはC++で書かれたEnvoyを通信フローの間に挟まってトラフィック操作する 通信のレイテンシやサービスの依存関係などを知ることができる Envoyを挟んでいるので処理スピードは多少遅くなる  adtech領域で使うにはまだレイテンシの面で厳しい バージョンが上がるにつれてqpsは良くなっていっている  性能はVMの時と比較してk8s上だとnginxの処理性能は半分ぐらいになった  k8sのロードバランサはiptablesを使ったがipvsになると性能あがるかも   SIG API Machinery Deep Dive by Aya Igarashi @ladicle (Z Lab)  CustomResourceを使うと自由にResourceを定義できる  Continuous Delivery Meets Custom Kubernetes Controller: A Declarative Configuration Approach by nasa9084 (日本仮想化技術株式会社)  これまではCI/CDやるとき、Jenkinsがハブになってコンテナレジストリやk8sをコントロールしていた  k8sのアクセス権をjenkinsに与える必要があり少し問題 jenkinsではなくtravis ciなど使ってもこれは同じ  weave fluxを使えばある程度解決する。が一長一短ある cvmanagerというCustomeResourceで全てのci/cdをk8s上で完結させることを目的にしている  ci/cdパイプラインからk8s、その逆も無いのでセキュリティがある程度上がる   Kubernetes Multi-Cluster Operations without Federation by Junichi Yoshise @jyoshise (Hewlett Packard Enterprise)  エンタープライズだと５−１０クラスタは持つようなイメージ tectonicはcluster registryとpolicyを全クラスタで同期し、federationを実現する kubernetes federationは本体にまだ組み込まれていない OperatorをCRDで定義する</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/legacy_monolith_to_microservices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/legacy_monolith_to_microservices/</guid>
+      <description> Legacy monolith to microservices  https://speakerdeck.com/mploed/from-a-legacy-monolith-to-microservices-with-domain-driven-design monolith 構造が全て悪いかといえば、そうではない 優秀な開発者は恐れている。銀の弾丸を レガシーシステムのマイクロサービス化には DDD(Domain-Driven  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/multitenant_saas_architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/multitenant_saas_architecture/</guid>
+      <description> Multi Tenant SaaS Architecture General  コンポツさん マルチテナントアーキテクチャについて IBM Web アプリケーションをマルチテナント型 SaaS ソリューションに変換する AWS SaaS on AWS アーキテクチャと７つのベストプラクティス  YouTube  知られざる「マルチテナントアーキテクチャ」（1）～ SaaS はみんな同じではない？ 知られざる「マルチテナントアーキテクチャ」（2）～スケーラビリティのカギは組織 ID 知られざる「マルチテナントアーキテクチャ」（3）～スキーマとメタデータの謎 Force.com のマルチテナントアーキテクチャ cybozu.com の生みの親が自作クラウド派になった理由 Building and Growing SaaS on AWS for Partners AWS re:Invent 2016: Architecting Next Generation SaaS Applications on AWS (ARC301) AWS re:Invent 2015 | (ARC340) Multi-Tenant Application Deployment Models [レポート] ARC327 – Hands-on SaaS: AWS におけるマルチテナントソリューションの構築 #reinvent RDB を使わない究極のマルチテナント  AWS  Modeling SaaS Tenant Profiles on AWS AWS SaaS ファクトリー AWS SaaS Portal マルチテナント時代におけるテスト・ベストプラクティス Multi-Tenant Authentication with AWS Cognito ARC327 – Hands-on SaaS: AWS におけるマルチテナントソリューションの構築 #reinvent  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/netlify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/netlify/</guid>
+      <description> Netlify  Netlify で静的サイトをホスティング
+ https://www.d4af.com/post/2017/10/netlify1/  独自ドメイン設定
+ https://www.d4af.com/post/2017/10/netlify2/  HTTPS 設定
+ 強制 HTTPS 設定
+  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/node-red/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/node-red/</guid>
+      <description> Node-RED  Node-RED で raspberry pi のリソース監視  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/nuxtjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/nuxtjs/</guid>
+      <description> Nuxt.js mkdir nuxtjs cd nuxtjs npm install vue-cli mkdir nuxt_test ./node_modules/vue-cli/bin/vue init nuxt-community/starter-template nuxt_test/src cd nuxt_test/src npm install npm install @nuxtjs/pwa vi .gitignore  sw.*  vi nuxt.config.js   }, modules: [ [&#39;@nuxtjs/pwa&#39;, { icon: false }], ], manifest: { name: &#39;nuxt_test&#39;, lang: &#39;ja&#39; } }  cd nuxt_test/src npm run build npm run start npm run dev  Reference  https://inside.dmm.com/entry/2018/04/10/nuxt-firebase  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/oss-license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/oss-license/</guid>
+      <description> OSS License ライセンス問題（GNU AGPLv3 について）  GPL と AGPL  GPL クラウドサービス（SaaS）で OSS 利用時、コード公開不要 AGPL クラウドサービス（SaaS）で OSS 利用時、コード公開必要 社内利用では不問（あくまでライセンスは「他者へのソースコード公開の強制」なので、他者＝社外の人間となる）   reference  IoT 時代における OSS の利用と法的諸問題 Q&amp;amp;A 集  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/raspberrypi3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/raspberrypi3/</guid>
+      <description>Raspberry Pi 3 Model B(+) 開封時  https://kureuetan.com/web/raspberrypi/4236/  初期設定  sudo raspi-config
+ キーボードレイアウト タイムゾーン Wifi [2 Network Options] -&amp;gt; [N2 Wi-Fi] SSID と Key を入力する hostname -I SSH [5 Interfacing Options] -&amp;gt; [P2 SSH] アップデート sudo apt-get update sudo apt-get upgrade   初期設定  http://ykubot.com/2017/01/17/raspberry-pi-3-initialize/ https://qiita.com/diskn/items/cb06b7d81ec068febc5e
+ 初期パスワード
+ pi / raspberry  Turn Off Bluetooth
+ Desktop の右上から無効化する（不要な場合は）  keyboard Layout 変更(Japan &amp;gt; Japanese)
+ [4 Localisation Options] -&amp;gt; [I3 Change Keyboard Layout] Keyboard Model : Generic 105-Key (Intl) PC Keyboard layout : Other -&amp;gt; Japanese Key to function as AltGr : The default for keyboard layout Compose key : No compose key  Wifi 接続設定</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/raspberrypi_bluetooth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/raspberrypi_bluetooth/</guid>
+      <description> raspberry pi bluetooth $ sudo adduser pi bluetooth $ newgrp bluetooth $ sudo adduser t-tsuji bluetooth $ newgrp bluetooth $ sudo shutdown -r now  $ rfkill list $ sudo rfkill unblock bluetooth $ sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)  $ sudo systemctl status hciuart $ sudo hciconfig hci0 $ sudo hciconfig hci0 up $ sudo hciconfig hci0 reset  $ sudo hcitool lescan $ bluetoothctl $ scan on  $ node-red #$ sudo node-red  $ sudo hcitool lescan $ sudo gatttool -b C9:12:2F:D7:A1:D8 --interactive -t random $ connect $ char-write-cmd 0x0016 570100 $ char-write-cmd 0x0016 570101 $ char-write-cmd 0x0016 570102 $ sudo gatttool -b C9:12:2F:D7:A1:D8 -t random --char-write-req -a 0x0016 -n 570100 $ sudo gatttool -b C9:12:2F:D7:A1:D8 -t random --char-write-req -a 0x0016 -n 570101 $ sudo gatttool -b C9:12:2F:D7:A1:D8 -t random --char-write-req -a 0x0016 -n 570102  Reference  Raspberry Piでbluezを使ってBLESerialとつなぐ  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/react_react-native/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/react_react-native/</guid>
+      <description>React  React は React.js(ReactJS) と記載されることもある JSX と呼ばれる記法を使う React と React Native のコードをある程度共通化する方法  https://qiita.com/tuttieee/items/7c66691fe6cc244053de#electron  React を理解するためには webpack(バンドラ), babel(トランスパイラ) も理解する必要がある  Create dev environment  https://vitalify.jp/app-lab/react-js-20170911/ create-react-app は簡単に環境を作成できる反面、デフォルトの設定を簡単にカスタマイズできない create-react-app のボイラーテンプレートになっている registerServiceWorker とは
+$ export PATH=$PATH:./node_modules/.bin $ npm i --save-dev create-react-app $ create-react-app testapp $ cd testapp $ npm start ## ブラウザが開いて localhost:3000 でReactアプリが起動する $ npm run build $ ls -l build   Develop $ npm start $ vi src/App.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/rust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/rust/</guid>
+      <description> Rust  “プログラミング言語 Rust: 2nd Edition”の日本語版 PDF を作成した  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/smart-speaker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/smart-speaker/</guid>
+      <description> Smart Speaker  Raspberry Pi と 学習リモコン（ADRSIR）で家電を操作する ラズベリー・パイ専用 学習リモコン基板 ADRSIRの使い方 Google Homeで遊ぶエンジニア21人の奇抜なHackまとめ Node-REDでGoogle Homeにテキストをしゃべらせる  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/subscription/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/subscription/</guid>
+      <description> Subscription  サブスクリプションの分析 note  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/swagger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/swagger/</guid>
+      <description> swagger  express で swagger を利用する swagger Generating documentation Client API examples in index.html  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/switchbot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/switchbot/</guid>
+      <description> switch bot $ sudo gatttool -b C9:12:2F:D7:A1:D8 -t random --char-write-req -a 0x0016 -n 570100 $ sudo gatttool -b C9:12:2F:D7:A1:D8 -t random --char-write-req -a 0x0016 -n 570101 $ sudo gatttool -b C9:12:2F:D7:A1:D8 -t random --char-write-req -a 0x0016 -n 570102  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/tensorflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/tensorflow/</guid>
+      <description> tensorflow  Google Colaboratory Google Colaboratory の無料 GPU 環境を使ってみた 5 分で体験するディープラーニング  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://toshimitsu.tsuji.dev/posts/tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/tool/</guid>
+      <description> tool document  RedPen でわかりやすい技術文書を書こう 快適？ブログ執筆環境構築 Excel 仕様書と Gitbook 技術文書をソフトウェア開発する話  git  ViewVC Gitiles - A simple JGit repository browser  etc  Pomotodo A Time Management App for the Creators  </description>
+    </item>
+    
+  </channel>
+</rss>

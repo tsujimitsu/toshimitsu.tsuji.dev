@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on tsujimitsu.tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/tags/golang/</link>
+    <description>Recent content in golang on tsujimitsu.tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 29 Aug 2017 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo</title>
+      <link>https://toshimitsu.tsuji.dev/posts/hugo/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/hugo/</guid>
+      <description>Go  Download
+# cd ~ # wget https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz # ls -l go* -rw-r--r--. 1 root root 102601309 Aug 25 07:44 go1.9.linux-amd64.tar.gz  Install
+# tar -C /usr/local -xzf go1.9.linux-amd64.tar.gz # ls -ld /usr/local/go/ drwxr-xr-x. 11 root root 265 Aug 25 06:51 /usr/local/go/ # vi ~/.bash_profile PATH=$PATH:$HOME/bin:/usr/local/go/bin # source ~/.bash_profile # go version go version go1.9 linux/amd64  Test
+# vi hello.go package main import &amp;quot;fmt&amp;quot; func main() { fmt.</description>
+    </item>
+    
+  </channel>
+</rss>

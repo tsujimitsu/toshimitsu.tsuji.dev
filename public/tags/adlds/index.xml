@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>adlds on tsujimitsu.tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/tags/adlds/</link>
+    <description>Recent content in adlds on tsujimitsu.tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 24 Jun 2013 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/tags/adlds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Active Directory Light Weight Directory Service</title>
+      <link>https://toshimitsu.tsuji.dev/posts/active-directory-light-weight-directory-service/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/active-directory-light-weight-directory-service/</guid>
+      <description>参考文献  AD LDS  http://technet.microsoft.com/ja-jp/library/cc732019(v=ws.10).aspx  AD LDSの概要  http://technet.microsoft.com/ja-jp/library/cc733064(v=ws.10).aspx  AD LDS インスタンスとは  http://technet.microsoft.com/ja-jp/library/cc770698(v=ws.10).aspx  AD LDS スキーマとは  http://technet.microsoft.com/ja-jp/library/cc753882(v=ws.10).aspx  AD LDS レプリケーションおよび構成セットとは  http://technet.microsoft.com/ja-jp/library/cc770465(v=ws.10).aspx  新しいAD LDSインスタンスの作成  http://technet.microsoft.com/ja-jp/library/cc731687(v=ws.10).aspx  既存のAD LDSインスタンスのレプリカを作成する  http://technet.microsoft.com/ja-jp/library/cc725829(v=ws.10).aspx  LDIF ファイルからデータをインポートする  http://technet.microsoft.com/ja-jp/library/cc771986(v=ws.10).aspx  アプリケーション ディレクトリ パーティションの作成  http://technet.microsoft.com/ja-jp/library/cc771757(v=ws.10).aspx  ディレクトリ パーティションの操作  http://technet.microsoft.com/ja-jp/library/cc730613(v=ws.10).aspx  グループ メンバーシップを管理する  http://technet.microsoft.com/ja-jp/library/cc770527(v=ws.10).aspx  AD LDS インスタンスのバックアップまたは復元  http://technet.microsoft.com/ja-jp/library/cc733082(v=ws.10).aspx  AD DS のデータを AD LDS と同期する  http://technet.</description>
+    </item>
+    
+    <item>
+      <title>Dsget Commnad on ADLDS</title>
+      <link>https://toshimitsu.tsuji.dev/posts/dsget-command-on-adlds/</link>
+      <pubDate>Mon, 27 May 2013 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/dsget-command-on-adlds/</guid>
+      <description>AD LDSの役割を追加するだけでは、dsget, dsaddなどのコマンドが使えない。なので、Active Directory ドメインサービスの役割を追加して、サービスは起動せずにコマンドだけ使う。（powershellからアクセスできるが異様に遅い）
+ http://adtan.wordpress.com/2012/02/12/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%B8%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC/ http://adtan.wordpress.com/2012/01/02/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%92%E5%89%8A%E9%99%A4/
+# dsget group “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -members -s lds01:389 # dsmod group “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -addmbr “CN=test01,OU=Groups,DC=codelogue,DC=com” -s lds01:389 # dsrm “CN=test01,OU=Users,DC=codelogue,DC=com” -s lds01:389 -noprompt   dsrmは削除するか確認が返ってくるのでnopromptで自動返答する</description>
+    </item>
+    
+    <item>
+      <title>CLI ADLDS</title>
+      <link>https://toshimitsu.tsuji.dev/posts/cli-adlds/</link>
+      <pubDate>Sun, 26 May 2013 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/cli-adlds/</guid>
+      <description>ユーザグループ追加などの作業で必要となる。
+ Windows 2008 R2: Managing AD LDS using the AD PowerShell Module  以下はコマンド例。
+New-ADUser -name “test01” -Displayname “test01” -server lds01:389 -Path “OU=Users,DC=codelogue,DC=com” Add-ADGroupMember -identity “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -member “CN=test01,OU=Users,DC=codelogue,DC=com” -partition “DC=codelogue,DC=com” -server lds01  powershellをコマンドプロンプトから呼び出してバッチ処理する
+ http://news.mynavi.jp/column/powershell/013/index.html http://technet.microsoft.com/ja-jp/scriptcenter/powershell_owner05.aspx http://d.hatena.ne.jp/mokkyu/20080421/1208728868   ファイルを準備する
+C:¥Users¥Administrator¥Desktop¥Test.ps1 Import-Module ActiveDirectory New-ADUser -name “test01” -Displayname “test01” -server lds01:389 -Path “OU=Users,DC=codelogue,DC=com” Add-ADGroupMember -identity “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -member “CN=test01,OU=Users,DC=codelogue,DC=com” -partition “DC=codelogue,DC=com” -server lds01  コマンドプロンプトを開く
+C:¥Users¥Administrator¥Desktop&amp;gt; # powershell Set-ExecutionPolicy RemoteSigned # powershell .</description>
+    </item>
+    
+  </channel>
+</rss>
