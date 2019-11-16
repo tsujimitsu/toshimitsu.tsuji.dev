@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.59.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="tsuji.dev">
+<title>Node.js - tsuji.dev</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/">tsuji.dev</a>
+		</div>
+		
+	</header>
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">Node.js</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-10-14">October 14, 2017</time></span>
+			<section itemprop="entry-text">
+				
+
+<h2 id="feature">Feature</h2>
+
+<ul>
+<li>Non-Blocking(Asynchronous and Event Driven)
+
+<ul>
+<li>callback, parallel disk access</li>
+<li>これまでの言語はWebサーバをマルチスレッドで動かすことで大量アクセスを捌いていた</li>
+<li>マルチスレッドといってもスレッド数には限界があった(C10K問題)</li>
+<li>Node.jsはcallback呼び出しによりI/Oによるブロッキングを受けないようにしシングルスレッドで大量アクセスを捌けるようにした</li>
+<li>JavaScriptのAjaxをサーバ側にも拡張している</li>
+</ul></li>
+<li>Event Loop
+
+<ul>
+<li>callback関数の呼び出しをリッスンして待つ</li>
+</ul></li>
+<li>V8 JavaScript Engine(Google Chrome) is very fast</li>
+</ul>
+
+<h2 id="npm">NPM</h2>
+
+<ul>
+<li><p>Node Package Manager(online repositories)</p>
+
+<pre><code class="language-shell">$ npm install (install all the modules in package.json)
+$ npm install --save (add the module dependency to package.json)
+$ npm install &lt;Module Name&gt;
+$ npm install &lt;Module Name&gt; -g (dependency globally)
+</code></pre></li>
+</ul>
+
+<h2 id="file-system">File System</h2>
+
+<ul>
+<li><p>File I/O require(&ldquo;fs&rdquo;)</p>
+
+<pre><code class="language-javascript">var fs = require(&quot;fs&quot;);
+
+// Synchronous read
+var data = fs.readFileSync(&quot;input.txt&quot;);
+
+// Asynchronous read
+fs.readFileSync(&quot;input.txt&quot;, function(err, data){});
+</code></pre></li>
+</ul>
+
+<h2 id="events-event-driven">Events(Event Driven)</h2>
+
+<ul>
+<li><p>Node.js follows event-driven</p>
+
+<pre><code class="language-javascript">var event = require('events');
+const myEmitter = new event.EventEmitter();
+
+fs.readFile('test1.txt', (err, data) =&gt; {
+console.log(data.toString());
+myEmitter.emit('readFile');
+});
+
+myEmitter.on('readFile', () =&gt; {
+console.log('Read Event Occurred');
+});
+</code></pre></li>
+</ul>
+
+<h2 id="docker">Docker</h2>
+
+<ul>
+<li><p>use docker</p>
+
+<pre><code class="language-shell"># docker pull node:6.11.4-alpine
+# docker run -itd -v /opt/docker-node:/work -p 8080:8080 node:6.11.4-alpine /bin/sh
+# docker exec -it &lt;Container ID&gt; /bin/sh
+
+# docker run -it node:6.11.4-alpine /bin/sh
+# docker run -itd node:6.11.4-alpine /bin/sh (run background)
+
+# node -v
+v6.11.4
+</code></pre></li>
+</ul>
+
+<h2 id="test">Test</h2>
+
+<ul>
+<li>mochaとistanbulを使ってテストカバレッジを取得する</li>
+
+<li><p><a href="https://photo-tea.com/p/17/javascript-test-how-to-3/">https://photo-tea.com/p/17/javascript-test-how-to-3/</a></p>
+
+<pre><code># mkdir test
+# npm init
+# npm install --save-dev istanbul mocha power-assert intelli-espower-loader
+# vi package.json
+...
+&quot;scripts&quot;: {
+&quot;test&quot;: &quot;node ./node_modules/mocha/bin/mocha --recursive -R spec&quot;,
+&quot;test-cov&quot;: &quot;node ./node_modules/istanbul/lib/cli.js cover _mocha -- --recursive -R spec&quot;
+},
+...
+
+# cat hello.js
+console.log(hi(&quot;hello&quot;));
+
+
+function hi(a) {
+return a;
+}
+
+function ya(a) {
+return a;
+}
+
+module.exports.hi = hi;
+module.exports.ya = ya;
+
+# cat test/hello.test.js
+'use strict';
+
+const assert = require('power-assert');
+const myModule = require('../hello');
+
+describe('Sample Test', function() {
+describe('1. Hello test', function() {
+    it('hello', function() {
+        assert.equal(myModule.hi('hello!'), 'hello!')
+    });
+});
+});
+
+# npm run test-cov
+</code></pre></li>
+</ul>
+
+<h2 id="express-web">Express (Web)</h2>
+
+<ul>
+<li><p><a href="https://gist.github.com/mitsuruog/fc48397a8e80f051a145">https://gist.github.com/mitsuruog/fc48397a8e80f051a145</a></p>
+
+<pre><code class="language-shell"># mkdir express-tutorial
+# cd express-tutorial/
+# npm init
+# npm install --save express express-generator
+# ./node_modules/express-generator/bin/express-cli.js sampleapp
+# cd sampleapp &amp;&amp; npm install
+
+# export PORT=8080
+# npm start
+</code></pre></li>
+</ul>
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/tsujimitsu" target="_blank">Twitter</a>
+			<a href="https://www.facebook.com/tsujimitsu" target="_blank">Facebook</a>
+			<a href="https://github.com/tsujimitsu/" target="_blank">GitHub</a>
+			
+		</div>
+		<div class="copyright">Copyright &copy; tsujimitsu All rights reserved.</div>
+	</footer>
+
+</div>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

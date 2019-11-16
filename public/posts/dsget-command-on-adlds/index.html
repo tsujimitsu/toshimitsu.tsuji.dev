@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.59.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="tsuji.dev">
+<title>Dsget Commnad on ADLDS - tsuji.dev</title>
+</head>
+<body>
+
+<div class="container">
+
+	<header role="banner">
+		<div class="header-logo">
+			<a href="/">tsuji.dev</a>
+		</div>
+		
+	</header>
+
+	<main role="main">
+		<article itemscope itemtype="http://schema.org/BlogPosting">
+			<h1 class="entry-title" itemprop="headline">Dsget Commnad on ADLDS</h1>
+			<span class="entry-meta"><time itemprop="datePublished" datetime="2013-05-27">May 27, 2013</time></span>
+			<section itemprop="entry-text">
+				<p>AD LDSの役割を追加するだけでは、dsget, dsaddなどのコマンドが使えない。なので、Active Directory ドメインサービスの役割を追加して、サービスは起動せずにコマンドだけ使う。（powershellからアクセスできるが異様に遅い）</p>
+
+<ul>
+<li><a href="http://adtan.wordpress.com/2012/02/12/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%B8%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC/">http://adtan.wordpress.com/2012/02/12/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%B8%E3%81%AE%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC/</a></li>
+
+<li><p><a href="http://adtan.wordpress.com/2012/01/02/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%92%E5%89%8A%E9%99%A4/">http://adtan.wordpress.com/2012/01/02/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%92%E5%89%8A%E9%99%A4/</a></p>
+
+<pre><code># dsget group “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -members -s lds01:389
+# dsmod group “CN=g_sales,OU=Groups,DC=codelogue,DC=com” -addmbr “CN=test01,OU=Groups,DC=codelogue,DC=com” -s lds01:389
+# dsrm “CN=test01,OU=Users,DC=codelogue,DC=com” -s lds01:389 -noprompt
+</code></pre></li>
+</ul>
+
+<p>dsrmは削除するか確認が返ってくるのでnopromptで自動返答する</p>
+
+			</section>
+		</article>
+	</main>
+
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-link">
+			
+			<a href="https://twitter.com/tsujimitsu" target="_blank">Twitter</a>
+			<a href="https://www.facebook.com/tsujimitsu" target="_blank">Facebook</a>
+			<a href="https://github.com/tsujimitsu/" target="_blank">GitHub</a>
+			
+		</div>
+		<div class="copyright">Copyright &copy; tsujimitsu All rights reserved.</div>
+	</footer>
+
+</div>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>node.js on tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/tags/node.js/</link>
+    <description>Recent content in node.js on tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Node.js</title>
+      <link>https://toshimitsu.tsuji.dev/posts/2017-10-14-nodejs/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/2017-10-14-nodejs/</guid>
+      <description>Feature  Non-Blocking(Asynchronous and Event Driven)  callback, parallel disk access これまでの言語はWebサーバをマルチスレッドで動かすことで大量アクセスを捌いていた マルチスレッドといってもスレッド数には限界があった(C10K問題) Node.jsはcallback呼び出しによりI/Oによるブロッキングを受けないようにしシングルスレッドで大量アクセスを捌けるようにした JavaScriptのAjaxをサーバ側にも拡張している  Event Loop  callback関数の呼び出しをリッスンして待つ  V8 JavaScript Engine(Google Chrome) is very fast  NPM  Node Package Manager(online repositories)
+$ npm install (install all the modules in package.json) $ npm install --save (add the module dependency to package.json) $ npm install &amp;lt;Module Name&amp;gt; $ npm install &amp;lt;Module Name&amp;gt; -g (dependency globally)   File System  File I/O require(&amp;ldquo;fs&amp;rdquo;)</description>
+    </item>
+    
+  </channel>
+</rss>

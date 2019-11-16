@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/categories/</link>
+    <description>Recent content in Categories on tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 24 Nov 2017 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>api</title>
+      <link>https://toshimitsu.tsuji.dev/categories/api/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/categories/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://toshimitsu.tsuji.dev/categories/tech/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphic</title>
+      <link>https://toshimitsu.tsuji.dev/categories/graphic/</link>
+      <pubDate>Mon, 18 Sep 2017 01:07:49 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/categories/graphic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://toshimitsu.tsuji.dev/categories/test/</link>
+      <pubDate>Mon, 18 Sep 2017 01:07:49 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/categories/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>https://toshimitsu.tsuji.dev/categories/iot/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/categories/iot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

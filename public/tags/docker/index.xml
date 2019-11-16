@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on tsuji.dev</title>
+    <link>https://toshimitsu.tsuji.dev/tags/docker/</link>
+    <description>Recent content in docker on tsuji.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 04 Dec 2016 22:46:44 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimitsu.tsuji.dev/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weekly Report</title>
+      <link>https://toshimitsu.tsuji.dev/posts/2015-12-04-weekly-report/</link>
+      <pubDate>Sun, 04 Dec 2016 22:46:44 +0900</pubDate>
+      
+      <guid>https://toshimitsu.tsuji.dev/posts/2015-12-04-weekly-report/</guid>
+      <description> DockerとLinux OSのリソース共有状況の調査 dockerコンテナがホストに与える影響についてカーネル別に検証、解説されている。 2015年の情報なので今時点では再度確認が必要ですが、評価観点について 非常に参考になる記事です。
+OSSのDockerコンテナ環境管理ソフト 注目の5製品紹介 2016年版 (1&amp;frasl;7) コンテナ環境管理ソフトの比較記事。2016年末版なので比較的新しい。 オーケストレータ（k8s, swarm）よりさらに上位層の話。 あまり聞きなれないソフトウェアがでてくる。Mesos, OpenShift以外は初めて知った。 コンテナ関連で面白いのはコンテナを管理するためのマネージャをコンテナ上で動作させる ソフトウェア構成が一般的になりつつあるってとこ。
+Docker ドキュメント日本語化プロジェクト dockerドキュメントの日本語化プロジェクト。 githubで管理されており、プルリクで貢献できるとのこと。
+Neutron networking with Red Hat Enterprise Linux OpenStack Platform Neutron関連の機能やモジュール配置についてわかりやすい図で表現されている。
+Advent Calendar関連 openstackとdocker関連のAdvent Calendar。参考になりそうな情報満載。
+ Docker Advent Calendar 2016 CrowdWorksのDocker開発環境 OpenStack Advent Calendar 2016  </description>
+    </item>
+    
+  </channel>
+</rss>

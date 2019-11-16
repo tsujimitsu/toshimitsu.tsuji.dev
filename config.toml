@@ -1,0 +1,12 @@
+baseURL = "https://toshimitsu.tsuji.dev/"
+languageCode = "ja"
+title = "tsuji.dev"
+theme = "hugo-zen"
+author = "tsujimitsu"
+
+[params]
+  copyright = "tsujimitsu All rights reserved."
+  twitter   = "https://twitter.com/tsujimitsu"
+  facebook  = "https://www.facebook.com/tsujimitsu"
+  github    = "https://github.com/tsujimitsu/"
+  analytics = "UA-152694591-1"
