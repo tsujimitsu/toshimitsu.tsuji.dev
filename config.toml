@@ -3,7 +3,6 @@ languageCode = "ja"
 title = "toshimitsu.tsuji.dev"
 theme = "hugo-zen"
 author = "tsujimitsu"
-logo = "https://pbs.twimg.com/profile_images/972390631539556353/fYrgy6RL_400x400.jpg"
 googleAnalytics = "UA-152694591-1"
 
 [params]
@@ -11,3 +10,4 @@ googleAnalytics = "UA-152694591-1"
   twitter   = "https://twitter.com/tsujimitsu"
   facebook  = "https://www.facebook.com/tsujimitsu"
   github    = "https://github.com/tsujimitsu/"
+  logo = "https://pbs.twimg.com/profile_images/972390631539556353/fYrgy6RL_400x400.jpg"
