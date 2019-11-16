@@ -1,12 +1,12 @@
 ---
-title: "hugo"
+title: 'hugo'
 date: 2017-08-29T00:00:00+09:00
 draft: false
 categories:
-- "tech"
+  - 'tech'
 tags:
-- "hugo"
-- "golang"
+  - 'hugo'
+  - 'golang'
 ---
 
 ## Go
@@ -171,4 +171,9 @@ draft: false
 ```
 
 ## Reference
-* [layout生成時に優先されるファイル参照順](http://staff.feedtailor.jp/2016/05/11/hugo_05/)
+
+- [layout 生成時に優先されるファイル参照順](http://staff.feedtailor.jp/2016/05/11/hugo_05/)
+
+## インクリメンタルサーチの導入
+
+- [Hugo で javascript を使った全文検索（インクリメンタルサーチ）](https://monoworks.co.jp/post/2018-07-09-hugo-js-full-text-search/)

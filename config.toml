@@ -1,8 +1,9 @@
 baseURL = "https://toshimitsu.tsuji.dev/"
 languageCode = "ja"
-title = "tsujimitsu.tsuji.dev"
+title = "toshimitsu.tsuji.dev"
 theme = "hugo-zen"
 author = "tsujimitsu"
+logo = "https://pbs.twimg.com/profile_images/972390631539556353/fYrgy6RL_400x400.jpg"
 googleAnalytics = "UA-152694591-1"
 
 [params]
